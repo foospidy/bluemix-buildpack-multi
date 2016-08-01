@@ -19,8 +19,10 @@ fi
 
 echo `ls -al ${HOME}/app/`
 echo `ls -al /tmp`
+echo '/tmp/buildpacks'
 echo `ls -al /tmp/buildpacks`
-echo `ls -al /tmp/stage`
+echo '/tmp/staged'
+echo `ls -al /tmp/staged`
 
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
