@@ -19,7 +19,9 @@ fi
 
 echo `ls -al ${HOME}/app/`
 echo `ls -al /tmp`
-echo `cat ${HOME}/app/support_heroku_buildpacks`
+echo `ls -al /tmp/buildpacks`
+echo `ls -al /tmp/stage`
+
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
   dir=$(mktemp -t buildpackXXXXX)
