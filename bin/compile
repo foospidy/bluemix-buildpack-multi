@@ -18,6 +18,7 @@ then
 fi
 
 echo `ls -a ${HOME}/app/support_heroku_buildpacks`
+echo `cat ${HOME}/app/support_heroku_buildpacks`
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
   dir=$(mktemp -t buildpackXXXXX)
