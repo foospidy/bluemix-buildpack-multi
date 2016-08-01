@@ -18,11 +18,12 @@ then
 fi
 
 echo `ls -al ${HOME}/app/`
-echo `ls -al /tmp`
-echo '/tmp/buildpacks'
-echo `ls -al /tmp/buildpacks/bluemix-buildpack-multi`
-echo '/tmp/staged'
-echo `ls -al /tmp/staged/app`
+#echo `ls -al /tmp`
+#echo '/tmp/buildpacks'
+#echo `ls -al /tmp/buildpacks/bluemix-buildpack-multi`
+#echo '/tmp/staged'
+#echo `ls -al /tmp/staged/app`
+echo `find / -name ".buildpacks"`
 
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
