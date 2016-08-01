@@ -20,9 +20,9 @@ fi
 echo `ls -al ${HOME}/app/`
 echo `ls -al /tmp`
 echo '/tmp/buildpacks'
-echo `ls -al /tmp/buildpacks`
+echo `ls -al /tmp/buildpacks/bluemix-buildpack-multi`
 echo '/tmp/staged'
-echo `ls -al /tmp/staged`
+echo `ls -al /tmp/staged/app`
 
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
