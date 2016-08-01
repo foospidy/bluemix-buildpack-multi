@@ -17,8 +17,8 @@ then
   1=${HOME}/app
 fi
 
-echo `ls -a ${HOME}/app/`
-echo `ls -a ${HOME}/tmp`
+echo `ls -al ${HOME}/app/`
+echo `ls -al ${HOME}/tmp`
 echo `cat ${HOME}/app/support_heroku_buildpacks`
 
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
