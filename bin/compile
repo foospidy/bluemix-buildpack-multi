@@ -17,7 +17,7 @@ then
   1=${HOME}/app
 fi
 
-for BUILDPACK in $(cat $1/.buildpacks); do
+for BUILDPACK in $(cat ${HOME}/.buildpacks); do
   dir=$(mktemp -t buildpackXXXXX)
   rm -rf $dir
 
