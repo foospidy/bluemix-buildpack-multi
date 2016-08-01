@@ -17,6 +17,8 @@ then
   1=${HOME}/app
 fi
 
+echo `ls ${HOME}`
+
 for BUILDPACK in $(cat ${HOME}/.buildpacks); do
   dir=$(mktemp -t buildpackXXXXX)
   rm -rf $dir
