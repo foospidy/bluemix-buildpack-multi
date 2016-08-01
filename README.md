@@ -1,4 +1,4 @@
-# heroku-buildpack-multi
+# bluemix-buildpack-multi
 
 Use multiple buildpacks on your app
 
